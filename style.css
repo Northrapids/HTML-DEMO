@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+
+
+:root {
+    --dark: #000;
+    --accent: rgb(16, 79, 16);
+    --font1: 'Roboto', sans-serif;
+    --font2: Arial, Helvetica, sans-serif;
+}
+
+/* Css-reset rekomenderas att alltid ha med i sin css kod, 
+   så att man nollställer webbläsarens egna css */
+/* CSS-reset */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(39, 39, 39);
+}
+
+h1 {
+    /* color: var(--dark); */
+    color: #F8F8F8;
+    font-family: var(--font2);
+}
+
+p {
+    font-size: 2em;
+    /* color: var(--dark); */
+    color: #F8F8F8;
+    font-family: var(--font1);
+    font-weight: 400; /* 400 är standard */
+    
+}
+
+/* a {
+    color: var(--accent);
+} */
+
+.text {
+    font-size: .5em;
+}
+
+#punkt1 {
+    color: red;
+}
+
+.wrapper {
+    background-color: deeppink;
+    width: 50%;
+}
+
+.container1 {
+    background-color: yellowgreen;
+    width: 50%;
+    /* min-width: 400px; */
+    /* height: 250px; */
+    /* border-style: solid;
+    border-color: red;
+    border-width: 10px; */
+}
+
+/* .container p {
+    background-color: blue;
+    width: 100vw;
+    height: 100vh;
+} */
+
+.container2 {
+    background-color: purple;
+    width: 100%;
+}
